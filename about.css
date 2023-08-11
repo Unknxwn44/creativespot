@@ -1,0 +1,46 @@
+.container-2{
+    margin-top: 300px;
+    color: white;
+}
+.items-about-me{
+    display: grid;
+    grid-template-columns: 400px 600px;
+    justify-content: center;
+    align-items: center;
+}
+.about-section{
+    margin-left: 150px;
+}
+.row-for-text{
+    display: grid;
+    grid-template-rows: 250px 250px;
+}
+.image-space-about-me{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+}
+.span-about-me{
+    color: #0084ff;
+}
+.more-info-button{
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.15s;
+}
+.more-info-button:hover{
+    background-color: #003b72;
+}
+.more-info-button:active{
+    opacity: 0.5;
+}

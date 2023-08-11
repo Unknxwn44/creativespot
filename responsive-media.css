@@ -1,0 +1,67 @@
+@media screen and (max-width: 1024px){
+    .products-service{
+        display: grid;
+        grid-template-columns: 350px;
+        row-gap: 40px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .header{
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-right: 400px;
+        padding-left: 400px;
+        background-color: #000000;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+
+    .items-about-me{
+        display: grid;
+        grid-template-columns: 600px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-space-about-me{
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        margin-left: 150px;
+    }
+
+    .about-section{
+        text-align: center;
+        margin-right: 150px;
+    }
+
+    .items{
+        display: grid;
+        grid-template-columns: 700px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image-space{
+        background-color: #ffffff;
+        height: 300px;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+
+    .container{
+        margin-top: 50px;
+        color: white;
+    }
+    .portfolio-info p{
+        width: 320px;
+        margin-left: 190px;
+    }
+}

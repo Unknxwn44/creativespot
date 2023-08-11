@@ -1,0 +1,97 @@
+.container{
+    margin-top: 200px;
+    color: white;
+}
+.items{
+    display: grid;
+    grid-template-columns: 700px 250px;
+    justify-content: center;
+    align-items: center;
+}
+.hello-div{
+    display: inline-block;
+}
+.hello-button{
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+.say-hello{
+    display: inline-block;
+}
+.say-hello-button{
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.say-hello-button:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.play-button{
+    display: inline-block;
+}
+.play-button-icon{
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.15s;
+}
+.play-button-icon:hover{
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 3px;
+}
+.watch-work{
+    display: inline-block;
+    margin-left: 5px;
+}
+.im-div{
+    display: inline-block;
+    margin-left: 10px;
+}
+.name h1{
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+.info-about-me h3{
+    margin-top: 0;
+    font-size: 27px;
+    font-weight: 700;
+}
+.info-about-me h3 span{
+    color: #0084ff;
+}
+.image-space{
+    background-color: #ffffff;
+    height: 500px;
+    width: 500px;
+}
+.say-hello-link{
+    text-decoration: none;
+}
+.play-button-link{
+    text-decoration: none;
+}
